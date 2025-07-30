@@ -1,6 +1,6 @@
-import os
 from flask import Flask
 from threading import Thread
+import os
 
 app = Flask(__name__)
 
@@ -15,5 +15,6 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
+# Optional for local testing
 if __name__ == "__main__":
     keep_alive()
