@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Start Flask app for UptimeRobot ping support
+# 🌐 Start Flask uptime thread
 python3 main.py &
 
-# Then start the stream script in parallel
+# 📡 Start streaming
 python3 stream.py
