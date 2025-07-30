@@ -8,7 +8,7 @@ from main import keep_alive  # 👈 Import uptime server thread
 keep_alive()
 
 # 🎬 Google Drive video config
-drive_id = "1-iC97qVqueAT0kHL0sS93DBqZJpsP_ds"
+drive_id = "lv_0_20250730211419.mp4"
 video_file = "video.mp4"
 stream_key = "3gr0-q51j-d1ct-8702-bdb7"
 stream_url = f"rtmp://a.rtmp.youtube.com/live2/{stream_key}"
